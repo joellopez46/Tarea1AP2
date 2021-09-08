@@ -1,0 +1,27 @@
+﻿
+@page "/operacion"
+
+<h3>Operaciones</h3>
+
+Primer numero: @numero1
+<br />
+Segundo numero: @numero2
+<br />
+
+El resultado de la suma es: @suma
+<br />
+El resultado de la resta es: @resta
+<br />
+El resultado de la multiplicacion es: @multiplicacion
+<br />
+
+
+
+@code {
+    static int numero1 = 10;
+    static int numero2 = 2;
+
+    float suma = numero1 + numero2;
+    float resta = numero1 - numero2;
+    float multiplicacion = numero1 * numero2;
+}
